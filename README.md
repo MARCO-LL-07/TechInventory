@@ -10,6 +10,37 @@ TechInventory permite gestionar un inventario de productos tecnológicos.
 
 ## Estructura del proyecto
 
+TechInventory/
+├── backend/
+│   ├── src/
+│   │   ├── controllers/     
+│   │   ├── services/        
+│   │   ├── routes/         
+│   │   ├── config/          
+│   │   ├── validation/      
+│   │   └── app.js          
+│   │
+│   ├── server.js            
+│   ├── package.json
+│   └── .env                 
+│
+├── frontend/
+│   ├── src/
+│   │   ├── api/            
+│   │   ├── components/      
+│   │   ├── pages/           
+│   │   ├── hooks/           
+│   │   ├── styles/         
+│   │   ├── validation/     
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   │
+│   ├── index.html
+│   ├── package.json
+│   └── .env                
+│
+├── .gitignore
+└── README.md
 
 
 
