@@ -1,0 +1,28 @@
+{
+  "name": "techinventory-backend",
+  "version": "1.0.0",
+  "description": "API REST para gestión de productos tecnológicos (Supabase + Express)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "supabase",
+    "api",
+    "inventory"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/ssr": "^0.10.2",
+    "@supabase/supabase-js": "^2.105.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "yup": "^1.7.1"
+  }
+}
